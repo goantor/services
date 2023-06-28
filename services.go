@@ -4,5 +4,5 @@ import "context"
 
 type IService interface {
 	Boot() error
-	ShutDown(ctx context.Context) error
+	Shutdown(ctx context.Context) error
 }
